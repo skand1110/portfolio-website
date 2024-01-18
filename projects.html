@@ -12,25 +12,38 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-
-    <div class="navbar fixed-top navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end w-100 p-3">
         <div class="container">
-            <a href="#" class="navbar-brand text-uppercase">skand sharma</a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                id="navbarButton">
+            <a class="navbar-brand text-uppercase" href="#">Skand Sharma</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                <div class="navbar-nav">
-                    <a href="index.html" class="nav-item nav-link text-uppercase mx-1">about</a>
-                    <a href="projects.html" class="nav-item nav-link text-uppercase mx-1">projects</a>
-                </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-uppercase" href="index.html">About <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="projects.html">Projects</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
+    </nav>
 
     <section class="container md" id="projects">
         <div class="row">
@@ -40,7 +53,8 @@
                         <h4 class="card-title"><a href="https://github.com/skand1110/book-jar" class="link">BookJar</a>
                         </h4>
                         <p class="card-text">
-                            BookJar is a social media website where users can add books to their virtual bookshelves.
+                            BookJar is a social media website where users can add books to their virtual
+                            bookshelves.
                             Now, unlike in Alexandria, your library can never be burnt.
                         </p>
                     </div>
@@ -63,10 +77,12 @@
             <div class="col-lg-4 mt-4">
                 <div class="card portfolioContent">
                     <div class="card-body">
-                        <h4 class="card-title"><a href="https://github.com/skand1110/snake-game" class="link">Snake game
+                        <h4 class="card-title"><a href="https://github.com/skand1110/snake-game" class="link">Snake
+                                game
                                 in C++</a></h4>
                         <p class="card-text">
-                            It's not much but I love to recreate addictive retro games. Here I used OOPS concepts and
+                            It's not much but I love to recreate addictive retro games. Here I used OOPS concepts
+                            and
                             COORD library to create the game. Ironically, not made in Python.
                         </p>
                     </div>
@@ -105,9 +121,11 @@
             <div class="col-lg-4 mt-4">
                 <div class="card portfolioContent">
                     <div class="card-body">
-                        <h4 class="card-title"><a href="https://skandjsharma.blogspot.com/" class="link">Blog App</a>
+                        <h4 class="card-title"><a href="https://skandjsharma.blogspot.com/" class="link">Blog
+                                App</a>
                         </h4>
-                        <p class="card-text">A blog page where I<br> write poems quite frequently;<br>all except Haikus
+                        <p class="card-text">A blog page where I<br> write poems quite frequently;<br>all except
+                            Haikus
                         </p>
 
                     </div>

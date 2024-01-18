@@ -13,33 +13,45 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-
-    <div class="navbar fixed-top navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 p-3">
         <div class="container">
-            <a href="#" class="navbar-brand text-uppercase">skand sharma</a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                id="navbarButton">
+            <a class="navbar-brand text-uppercase" href="#">Skand Sharma</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                <div class="navbar-nav">
-                    <a href="#about" class="nav-item nav-link text-uppercase mx-1">about</a>
-                    <a href="projects.html" class="nav-item nav-link text-uppercase mx-1">projects</a>
-                </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-uppercase" href="index.html">About <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="projects.html">Projects</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
+    </nav>
     <main>
-
         <section class="text-bloc" id="about">
-
             <p>
                 Hi! I am a software developer based in Noida, India.
                 Here you can see some of my <a class="link" href="https://github.com/skand1110">WORK</a>
-                (which is mostly a collection of silly projects i made while learning new tech stacks). Occasionally i
+                (which is mostly a collection of silly projects i made while learning new tech stacks). Occasionally
+                i
                 like to dabble in competitive programming on <a class="link"
                     href="https://codeforces.com/profile/skand1110">CODEFORCES</a> and other coding platforms.
                 I like solving problems and a perfect <a class="link"
@@ -52,7 +64,8 @@
                 feel free to snoop around on my <a class="link"
                     href="https://www.linkedin.com/in/skand-sharma/">LINKEDIN</a>.
                 If, however, you'd like to know more about my extraneous interests, you can check out my <a class="link"
-                    href="https://www.instagram.com/skizzielie/">ART PAGE</a> (learning animation is on the bucket list)
+                    href="https://www.instagram.com/skizzielie/">ART PAGE</a> (learning animation is on
+                the bucket list)
                 or my <a class="link" href="https://www.goodreads.com/user/show/56849520-skand-sharma">GOODREADS</a>
                 account where i like
                 to keep
