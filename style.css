@@ -1,3 +1,9 @@
+:root {
+    --background: #333;
+    --text: #FFF;
+    --highlight: #29aafe;
+}
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 0px;
@@ -5,10 +11,55 @@ html {
 
 body {
     padding: 0px 0 0 0;
+    background: var(--background);
+    transition: 0.5s background ease;
+}
+
+.theme-switch {
+    --background: #FFF;
+    --text: #333;
+    color: var(--text);
+    width: 70px;
+    height: 30px;
+    background: var(--highlight);
+    border-radius: 50px;
+    position: relative;
+
+    .switch {
+        background: white;
+        width: 24px;
+        height: 24px;
+        background: var(--background);
+        border-radius: 100%;
+        position: absolute;
+        top: 3px;
+        left: 4px;
+        transition: 0.5s all ease;
+    }
+}
+
+.light-theme {
+    --background: #FFF;
+    --text: #000;
+    background: var(--background);
+
+    .theme-switch {
+        background: var(--text);
+
+        .switch {
+            transform: translateX(37px);
+        }
+    }
+
+    a {
+        color: var(--highlight);
+    }
 }
 
 * {
     box-sizing: border-box;
+    color: var(--text);
+    background: var(--background);
 }
 
 h2 {
@@ -17,17 +68,18 @@ h2 {
 }
 
 .navbar {
-    background: #fff;
-
+    color: var(--text);
 }
 
 .header-fixed {
-    box-shadow: 0 12px 15px rgba(140, 152, 164, 0.1);
-    background: #fff;
+    box-shadow: 0 12px 15px var(--background);
+    color: var(--text);
+    background: var(--background);
 }
 
 .navbar-brand {
-    color: #292929;
+    color: var(--text);
+    background: var(--background);
 }
 
 .navbar-nav {
@@ -36,12 +88,12 @@ h2 {
 }
 
 .navbar-nav li a {
-    color: rgb(0 0 0 / 81%);
+    color: var(--text);
 }
 
 .navbar-toggler {
     box-shadow: none !important;
-    border: 1px solid #b3b3b3;
+    border: 1px solid var(--text);
 }
 
 @media only screen and (max-width:768px) {
@@ -55,12 +107,19 @@ h2 {
 
 .container-md {
     padding: 10px 0 30px;
+    color: var(--text);
 }
 
 section {
     padding-block: 20px;
     display: block;
     box-sizing: border-box;
+}
+
+.card {
+    color: var(--text);
+    background: var(--background);
+    border-color: var(--text);
 }
 
 a {
@@ -96,7 +155,7 @@ a:hover {
 * {
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: "Fira Code", sans-serif;
 }
 
 h2 {
@@ -119,4 +178,5 @@ h2 {
 .text-bloc {
     margin: 65px;
     font-size: 22px;
+    color: var(--text);
 }
