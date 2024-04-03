@@ -4,17 +4,6 @@
     --highlight: #29aafe;
 }
 
-html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 0px;
-}
-
-body {
-    padding: 0px 0 0 0;
-    background: var(--background);
-    transition: 0.5s background ease;
-}
-
 .theme-switch {
     --background: #FFF;
     --text: #333;
@@ -60,6 +49,17 @@ body {
     box-sizing: border-box;
     color: var(--text);
     background: var(--background);
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 0px;
+}
+
+body {
+    padding: 0px 0 0 0;
+    background: var(--background);
+    transition: 0.5s background ease;
 }
 
 h2 {
