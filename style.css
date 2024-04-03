@@ -134,7 +134,8 @@ a:hover {
     color: black;
 }
 
-
+/* 
+//commented out footer
 @media (max-width:991px) {
     .footer5 [class^=col-] {
         margin-bottom: 30px
@@ -151,6 +152,7 @@ a:hover {
         text-align: center
     }
 }
+*/
 
 * {
     margin: 0;
