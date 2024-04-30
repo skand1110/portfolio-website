@@ -56,7 +56,7 @@ a:hover {
 }
 
 .navbar-brand {
-    color: var(--text); /* Set text color to black */
+    color: #29aafe; /* Set text color to black */
     font-size: 24px; /* Adjust font size */
 }
 
@@ -73,6 +73,8 @@ a:hover {
 
 .navbar-nav li a:hover {
     text-decoration: underline; /* Add underline on hover */
+    text-decoration-color: black;
+    color: black;
 }
 
 .navbar-toggler {
