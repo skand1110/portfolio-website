@@ -59,6 +59,10 @@ h2 {
     font-size: 16px; /* Adjust font size */
 }
 
+.navbar-nav li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
 .navbar-toggler {
     box-shadow: none !important;
     border: 1px solid var(--text); /* Set border color to black */
