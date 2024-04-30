@@ -66,7 +66,7 @@ a:hover {
 }
 
 .navbar-nav li a {
-    color: var(--text); /* Set text color to black */
+    color: #29aafe; /* Set text color to black */
     padding: 10px 20px; /* Add padding */
     font-size: 16px; /* Adjust font size */
 }
