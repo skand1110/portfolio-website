@@ -30,6 +30,18 @@ h2 {
     text-transform: uppercase;
 }
 
+a {
+    text-decoration: none;
+    text-decoration-color: #29aafe;
+    color: #29aafe;
+}
+
+a:hover {
+    text-decoration-line: wavy;
+    text-decoration-color: black;
+    color: black;
+}
+
 .navbar {
     color: #FFF; /* White text color */
     background-color: transparent; /* Transparent background */
@@ -93,18 +105,6 @@ section {
     color: var(--text);
     background: var(--background);
     border-color: var(--text);
-}
-
-a {
-    text-decoration: none;
-    text-decoration-color: #29aafe;
-    color: #29aafe;
-}
-
-a:hover {
-    text-decoration-line: wavy;
-    text-decoration-color: black;
-    color: black;
 }
 
 /* Footer styles removed */
