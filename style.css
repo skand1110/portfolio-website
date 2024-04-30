@@ -31,9 +31,10 @@ h2 {
 }
 
 .navbar {
-    color: var(--text);
-    background-color: #1a1a1a; /* Dark background color */
+    color: #FFF; /* White text color */
+    background-color: transparent; /* Transparent background */
     padding: 10px 0; /* Add padding */
+    border: none; /* Remove border */
 }
 
 .header-fixed {
@@ -43,7 +44,7 @@ h2 {
 }
 
 .navbar-brand {
-    color: #FFF; /* White text color */
+    color: var(--text); /* Set text color to black */
     font-size: 24px; /* Adjust font size */
 }
 
@@ -53,15 +54,15 @@ h2 {
 }
 
 .navbar-nav li a {
-    color: #FFF; /* White text color */
+    color: var(--text); /* Set text color to black */
     padding: 10px 20px; /* Add padding */
     font-size: 16px; /* Adjust font size */
 }
 
 .navbar-toggler {
     box-shadow: none !important;
-    border: 1px solid #FFF; /* White border */
-    color: #FFF; /* White text color */
+    border: 1px solid var(--text); /* Set border color to black */
+    color: var(--text); /* Set text color to black */
 }
 
 @media only screen and (max-width:768px) {
