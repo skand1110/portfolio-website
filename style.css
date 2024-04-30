@@ -30,11 +30,8 @@ h2 {
     text-transform: uppercase;
 }
 
-/* Improved navbar styles */
 .navbar {
     color: var(--text);
-    font-size: 18px; /* Adjust font size */
-    font-weight: bold; /* Add font weight for emphasis */
 }
 
 .header-fixed {
@@ -46,7 +43,6 @@ h2 {
 .navbar-brand {
     color: var(--text);
     background: var(--background);
-    font-size: 24px; /* Adjust font size */
 }
 
 .navbar-nav {
@@ -56,8 +52,6 @@ h2 {
 
 .navbar-nav li a {
     color: var(--text);
-    padding: 10px 20px; /* Add padding for better spacing */
-    font-size: 16px; /* Adjust font size */
 }
 
 .navbar-toggler {
@@ -71,4 +65,65 @@ h2 {
         float: left;
         padding: 10px 0px 10px 10px;
         border-bottom: 1px solid #ebebeb;
-  
+    }
+}
+
+.container-md {
+    padding: 10px 0 30px;
+    color: var(--text);
+}
+
+section {
+    padding-block: 20px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.card {
+    color: var(--text);
+    background: var(--background);
+    border-color: var(--text);
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: #29aafe;
+    color: #29aafe;
+}
+
+a:hover {
+    text-decoration-line: wavy;
+    text-decoration-color: black;
+    color: black;
+}
+
+/* Footer styles removed */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Code", sans-serif;
+}
+
+h2 {
+    font-size: 125px;
+    display: flex;
+}
+
+.section-background {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-bloc {
+    margin: 65px;
+    font-size: 22px;
+    color: var(--text);
+}
