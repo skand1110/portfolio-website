@@ -32,6 +32,8 @@ h2 {
 
 .navbar {
     color: var(--text);
+    background-color: #1a1a1a; /* Dark background color */
+    padding: 10px 0; /* Add padding */
 }
 
 .header-fixed {
@@ -41,8 +43,8 @@ h2 {
 }
 
 .navbar-brand {
-    color: var(--text);
-    background: var(--background);
+    color: #FFF; /* White text color */
+    font-size: 24px; /* Adjust font size */
 }
 
 .navbar-nav {
@@ -51,12 +53,15 @@ h2 {
 }
 
 .navbar-nav li a {
-    color: var(--text);
+    color: #FFF; /* White text color */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Adjust font size */
 }
 
 .navbar-toggler {
     box-shadow: none !important;
-    border: 1px solid var(--text);
+    border: 1px solid #FFF; /* White border */
+    color: #FFF; /* White text color */
 }
 
 @media only screen and (max-width:768px) {
